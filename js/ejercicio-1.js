@@ -1,5 +1,5 @@
 // We declare variables
-const MAIN = document.querySelector('.main');
+const MAIN1 = document.querySelector('.main1');
 
 // Logic
 for (let i = 1; i <= 100; i++) {
@@ -17,6 +17,6 @@ for (let i = 1; i <= 100; i++) {
 
 // Create Paragraphs
 function showNumbers(result) {
-    let element = MAIN.appendChild(document.createElement('p'));
+    let element = MAIN1.appendChild(document.createElement('p'));
     element.textContent = result;
 }
